@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Valerie Duran</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="https://use.typekit.net/viq1nbi.css">
+<style>
+</style>
+</head>
+<body>
+<a id="top"></a>
+
+<div>
+  <a href="index.html"><img class="logo" src="/Files/logo.png" alt="Logo"></a>
+</div> 
+ 
+<div>
+  <ul>
+    <hr>
+    <li><a class="active" href="../index.html">ANIMATION</a></li>
+    <li><a href="../graphicDesign.html">GRAPHIC DESIGN</a></li>
+    <!--<li><a href="photography.html">PHOTOGRAPHY</a></li>-->
+    <li><a href="../about.html">ABOUT</a></li>
+    <li><a href="../contact.html">CONTACT</a></li>
+    <hr>
+  </ul>
+</div>
+
+<div>
+  <h1>Light Rig</h1>
+    <h2>2021</h2>
+      <div class="descriptionTitle">
+        <p>This light animation was my first attempt at learning how to create a light rig and animate shaders.</p>
+      </div>  
+</div>
+
+<div>
+  <video class="video" width="1260" height="1020" controls>
+    <source src="/Animation/03_Light Rig/video.mp4" type="video/mp4">
+    <source src="/Animation/03_Light Rig/video.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+  </video>
+</div>
+
+<div>
+  <h1>The Process</h1><br><br>
+  <img class="largeimage" src="/Animation/03_Light Rig/01.jpg">
+  <p class="description">The first thing I did was create a NURBS circle, and I rebuilt it to have an even number of segments. Once it was rebuilt, I created 4
+    locators and 4 lights. The locators were attached to the circle by using a motion path. After they were on the path, I parented the lights with the locators
+    so that they could be animated without having to move the actual lights. Finally, I used a point constraint that forces all of the lights to look in the same
+    exact location at all times. The point constraint was attached to a sphere.</p>
+</div>
+
+<div>
+  <img class="largeimage" src="/Animation/03_Light Rig/02.jpg">
+  <p class="description">To control the light rig itself, I used the previously mentioned sphere as a control for the lights without having to change each light
+    independently. I then created attributes for that sphere to include a few that are only accessible inside the lights themselves. Once the attributes were created,
+    I used the set driven key menu to connect those attributes to the sphere and they could all be controlled at once. I turned off the visibility on the sphere so
+    that it could not be seen in the final render.</p>
+</div>
+
+<div>
+  <img class="largeimage" src="/Animation/03_Light Rig/03.jpg">
+  <p class="description">The floor is just a simple checkerboard shader that I animated by changing the two colors of the checkerboard.</p>
+</div>
+
+<div>
+  <img class="largeimage" src="/Animation/03_Light Rig/04.jpg">
+  <p class="description">I was originally planning on animating the transparency as well, but I opted out of it and left the shaders in place to animate at a later time.</p>
+</div>
+
+<div>
+  <p class="descriptionRender">Here are a couple of renders from the final animation.</p>
+  <img class="largeimage" src="/Animation/03_Light Rig/05.jpg">
+  <img class="largeimage" src="/Animation/03_Light Rig/thumbnail.jpg">
+  <p class="description">I used a random diamond shaped object and animated it spinning in place. The reason
+    behind this was that I wanted the reflections from the lights and the floor to create a fun illusion. The columns that were set up all around were put in place
+    to experiment with the shadows created by the lights.</p>
+</div>
+
+<div class="buttonContainer">
+  <div class="buttonCenter">
+    <a href="#top"><button>Back to top</button></a>
+  </div>
+</div>
+
+</body>
+<div class="footerContainer">
+  <div class="footerCenter">
+    <footer>© 2024 Valerie Duran. All Rights Reserved.</footer>
+  </div>
+</div>
+</html>

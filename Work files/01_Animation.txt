@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sebastian Duran</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://use.typekit.net/viq1nbi.css">
+<a href="index.html">
+  <img class="logo" src="Images/Logo/logo.png" alt="Logo">
+</a>
+
+<style>
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="animation.html">ANIMATION</a>
+  <a href="graphicDesign.html">GRAPHIC DESIGN</a>
+  <a href="photography.html">PHOTOGRAPHY</a>
+  <a href="index.html">ABOUT</a>
+  <a href="Contact.html">CONTACT</a>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+  </div>
+  <div class="column">
+    <img src="/Images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+    <img src="/images/Kuromi/thumbnail_kuromi.jpg">
+  </div>
+</div>
+
+</body>
+</html>

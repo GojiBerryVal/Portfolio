@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sebastian Duran></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://use.typekit.net/viq1nbi.css">
+<a href="index.htm">
+<img src="Images/Logo/logo.png" alt="Logo" style="float:left;width:400px;height:100px;padding:20px;">
+</a>
+<style>
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="animation.html">ANIMATION</a>
+  <a href="graphicDesign.html">GRAPHIC DESIGN</a>
+  <a href="photography.html">PHOTOGRAPHY</a>
+  <a class="active" href="about.html">ABOUT</a>
+  <a href="Contact.html">CONTACT</a>
+</div>
+
+<div style="padding:50px 50px">
+  <h1>Hi! I'm <span style="color:#7b723b">Sebastian.</span>
+  <br><span style="color:#d5c88b">Graphic Designer</span> &amp; <span style="color:#897356">3D Artist.</span></h1>
+  
+  <p>Ever since I was young, I&aposve had a dream of becoming a photographer for National Geographic. My parents would collect hundreds of NatGeo magazines and I would stare at the pictures for hours on end. It wasn’t until I was 10 years old that my parents decided it was finally time to get me a digital camera.</p>
+  <p>The first camera I ever shot with was an outdated, automatic zoom camera. This was all they could afford to make my dreams come true, but we made it work. Despite having grown out of that camera just a couple years later, I remained active in the world of photography when I discovered that my parents still had a vintage film camera in mint condition. I had never shot film before, but it was always easy to find empty film canisters around the house and play with them.</p>
+  <p>I quickly realized that shooting on film was one of the most tedious but rewarding things I had ever done up to that point. There was so much trial and error in each shot that every successful moment felt so much more gratifying. Once film became less affordable, I gravitated towards a medium that could be recycled indefinitely. The internet exposed me to graphic design, and it blew my mind how it was all made on a computer.</p> 
+  <p>The ability to create anything I could envision without feeling any guilt about having to keep trying or completely start over was so special to me. I could dedicate all of my time towards developing new skills, and it would cost practically nothing. It gave me that same feeling of accomplishment that film did, and I still feel the same way about it today. However, my curiosity always gets the best of me, and I can’t help but want to keep learning new things.</p> 
+  <p>I began studying 3D animation at Arizona State University while working towards my degree in Graphic Information Technology. It was evident that some of the coolest art I had ever seen was made using a combination of 3D and graphic design. The possibilities that opened up to me when I began making 3D art were unfathomable. Learning about the 3D animation pipeline gave me a whole new skill set that I apply to every project I work on today.</p> 
+  <p>After graduating I was faced with the dilemma of figuring out what it is that I wanted to do. The truth is, I don’t want to choose; I want to do it all. My interests and abilities have no bounds and there’s no telling where my creativity will take me next. Realistically, I know I can do it all, but not all at once. The ideas that I have are just too big for one person to accomplish and it would take me multiple lifetimes. With all of that being said, I believe someday I will be an Art Director. I have too much to learn to know for certain, but life is leading me in that direction. In the meantime, as I continue to grow, all I can do is wait for the path to show itself.</p>
+</div>
+
+<div class="center">
+<button onclick="window.open('Files/Resume_Sebastian_Duran.pdf', '_blank')">Résumé</button>
+</div>
+
+</body>
+</html>

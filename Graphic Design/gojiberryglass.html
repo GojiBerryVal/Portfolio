@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Valerie Duran</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="https://use.typekit.net/viq1nbi.css">
+<style>
+</style>
+</head>
+<body>
+<a id="top"></a>
+
+<div>
+  <a href="/index.html"><img class="logo" src="/Files/logo.png" alt="Logo"></a>
+</div>
+ 
+<div>
+  <ul>
+    <hr>
+    <li><a href="../index.html">ANIMATION</a></li>
+    <li><a class="active" href="../graphicDesign.html">GRAPHIC DESIGN</a></li>
+    <!--<li><a href="photography.html">PHOTOGRAPHY</a></li>-->
+    <li><a href="../about.html">ABOUT</a></li>
+    <li><a href="../contact.html">CONTACT</a></li>
+    <hr>
+  </ul>
+</div>
+
+<div>
+  <h1>Goji Berry Glass</h1>
+    <h2>2023</h2>
+      <div class="description">
+        <p>Logos/sticker designs I created for my glass blowing company, Goji Berry Glass.</p>
+      </div>  
+</div>
+
+<div class="gridcontainer">
+  <img class="gridimage hover-shadow cursor" src="../Graphic Design/01_Goji Berry Glass/01.jpg" onclick="openModal();currentSlide(1)">
+  <img class="gridimage hover-shadow cursor" src="../Graphic Design/01_Goji Berry Glass/02.jpg" onclick="openModal();currentSlide(1)">
+  <img class="gridimage hover-shadow cursor" src="../Graphic Design/01_Goji Berry Glass/03.jpg" onclick="openModal();currentSlide(1)">
+  <img class="gridimage hover-shadow cursor" src="../Graphic Design/01_Goji Berry Glass/04.jpg" onclick="openModal();currentSlide(1)">
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <img src="../Graphic Design/01_Goji Berry Glass/01.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="../Graphic Design/01_Goji Berry Glass/02.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="../Graphic Design/01_Goji Berry Glass/03.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <img src="../Graphic Design/01_Goji Berry Glass/04.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+</div>  
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+</script>
+</div>
+
+</body>
+<div class="footerContainer">
+  <div class="footerCenter">
+    <footer>© 2024 Valerie Duran. All Rights Reserved.</footer>
+  </div>
+</div>
+</html>
